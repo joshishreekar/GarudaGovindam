@@ -403,7 +403,7 @@ function Home() {
           </div>
 
           <div className="heroArt">
-            <img src="logo.png" alt="Fresh groceries" />
+            <img src="/images/logo.png" alt="Fresh groceries" />
             
             <strong>
               FRESH
@@ -540,7 +540,7 @@ function Home() {
       <section className="wrap story">
         <div className="storyArt">
            <img
-             src="ggps.png"
+             src="/images/ggps.png"
              alt="Garuda Govindam Provision Store"
             />
 
