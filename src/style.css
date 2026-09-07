@@ -282,8 +282,8 @@ h2 em {
 }
 
 .heroArt img {
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
   object-fit: contain;
   display: block;
 }
@@ -1110,7 +1110,7 @@ footer {
   }
 
   .heroArt {
-    min-height: 350px;
+    min-height: 280px;
   }
 
   .catgrid {
@@ -1152,10 +1152,17 @@ footer {
   }
 
   .heroArt {
-    transform: scale(0.88);
-
-    margin: -30px;
+    min-height: 280px;
+    height: 280px;
+    transform: none;
+    margin: 0;
   }
+
+  .heroArt img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
 
   .section {
     padding: 60px 0;
@@ -1325,4 +1332,14 @@ footer {
   .photo .productImage {
     padding: 6px;
   }
+
+  .heroArt {
+  min-height: 240px;
+  height: 240px;
+}
+
+.heroArt img {
+  width: 220px;
+  height: 220px;
+}
 }
