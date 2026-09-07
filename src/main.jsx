@@ -365,10 +365,10 @@ function Home() {
             </h1>
 
             <p>
-              Fresh groceries & essentials —
+              Fresh groceries & essentials
             </p>
             <p>
-              locally trusted and thoughtfully stocked.
+              Locally trusted and thoughtfully stocked.
             </p>
 
             <div className="buttons">
