@@ -366,6 +366,8 @@ function Home() {
 
             <p>
               Fresh groceries & essentials —
+            </p>
+            <p>
               locally trusted and thoughtfully stocked.
             </p>
 
