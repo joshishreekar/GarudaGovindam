@@ -89,6 +89,28 @@ const cats = [
   ],
 ];
 
+/* =========================================================
+   SEASONAL OFFER CONFIG
+   Change ONLY this section when the offer changes
+========================================================= */
+
+const offerConfig = {
+  enabled: true,
+
+  badge: "GANESHA CHATURTHI OFFER",
+
+  title: "Up to 20% OFF",
+
+  subtitle: "Special Ganesha festival offer on selected Products",
+
+  buttonText: "WhatsApp Us",
+
+  buttonLink: "https://wa.me/917259922753",
+
+  emoji: "🚩",
+};
+
+
 const fav = [
   [
     "Aashirvaad Atta",
@@ -351,6 +373,35 @@ function Footer() {
 function Home() {
   return (
     <main>
+
+{/* =========================
+          FIXED SEASONAL OFFER
+      ========================= */}
+
+      {offerConfig.enabled && (
+        <a
+          href={offerConfig.buttonLink}
+          className="floatingOffer"
+        >
+          <span className="floatingOfferEmoji">
+            {offerConfig.emoji}
+          </span>
+
+          <div className="floatingOfferText">
+            <small>{offerConfig.badge}</small>
+            <strong>{offerConfig.title}</strong>
+            <span>{offerConfig.subtitle}</span>
+          </div>
+
+          <span className="floatingOfferArrow">
+            →
+          </span>
+        </a>
+      )}
+
+
+
+
       <section className="hero">
         <div className="wrap heroGrid">
           <div>

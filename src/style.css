@@ -1345,3 +1345,162 @@ footer {
   height: 220px;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================================
+   FIXED SEASONAL OFFER
+========================================================= */
+
+.floatingOffer {
+  position: fixed;
+
+  right: 22px;
+  bottom: 22px;
+
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  width: 300px;
+
+  padding: 13px 15px;
+
+  background: #17352c;
+  color: #fff;
+
+  border: 1px solid #ffffff18;
+  border-radius: 18px;
+
+  box-shadow: 0 15px 40px #17352c40;
+
+  transition: 0.25s ease;
+}
+
+.floatingOffer:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 45px #17352c55;
+}
+
+.floatingOfferEmoji {
+  width: 43px;
+  height: 43px;
+
+  min-width: 43px;
+
+  display: grid;
+  place-items: center;
+
+  background: #c8df8f;
+
+  border-radius: 13px;
+
+  font-size: 22px;
+}
+
+.floatingOfferText {
+  display: flex;
+  flex-direction: column;
+
+  min-width: 0;
+}
+
+.floatingOfferText small {
+  color: #c8df8f;
+
+  font-size: 8px;
+  font-weight: 800;
+
+  letter-spacing: 0.12em;
+}
+
+.floatingOfferText strong {
+  font-family: Fraunces, serif;
+
+  font-size: 18px;
+
+  margin-top: 2px;
+}
+
+.floatingOfferText span {
+  color: #c3cec8;
+
+  font-size: 9px;
+
+  margin-top: 2px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.floatingOfferArrow {
+  margin-left: auto;
+
+  width: 30px;
+  height: 30px;
+
+  min-width: 30px;
+
+  border-radius: 50%;
+
+  display: grid;
+  place-items: center;
+
+  background: #28634d;
+
+  font-size: 17px;
+}
+
+
+/* =========================
+   MOBILE OFFER
+========================= */
+
+@media (max-width: 600px) {
+
+  .floatingOffer {
+    right: 12px;
+    bottom: 12px;
+
+    width: calc(100% - 24px);
+
+    padding: 11px 12px;
+
+    border-radius: 16px;
+  }
+
+  .floatingOfferEmoji {
+    width: 40px;
+    height: 40px;
+
+    min-width: 40px;
+
+    font-size: 20px;
+  }
+
+  .floatingOfferText strong {
+    font-size: 16px;
+  }
+
+  .floatingOfferText span {
+    font-size: 8px;
+  }
+
+  .floatingOfferArrow {
+    width: 28px;
+    height: 28px;
+
+    min-width: 28px;
+  }
+}
