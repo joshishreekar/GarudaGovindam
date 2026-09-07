@@ -365,8 +365,8 @@ function Home() {
             </h1>
 
             <p>
-              Fresh groceries and everyday essentials for your home —
-              thoughtfully stocked, locally trusted and easy to find.
+              Fresh groceries & essentials —
+              locally trusted and thoughtfully stocked.
             </p>
 
             <div className="buttons">
