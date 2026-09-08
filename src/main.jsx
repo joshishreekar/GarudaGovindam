@@ -229,8 +229,11 @@ function Header() {
       <header>
         <div className="wrap head">
           <Link className="logo" to="/">
-            <span>
-              <ShoppingBasket />
+            <span className="logoImage">
+             <img
+                 src="/images/logo.png"
+                 alt="Garuda Govindam Provision Store"
+             />
             </span>
 
             <b>
@@ -297,8 +300,11 @@ function Footer() {
       <div className="wrap foot">
         <div>
           <div className="logo">
-            <span>
-              <ShoppingBasket />
+            <span className="logoImage">
+              <img
+                src="/images/logo.png"
+               alt="Garuda Govindam Provision Store"
+               />
             </span>
 
             <b>
