@@ -105,7 +105,7 @@ const offerConfig = {
 
   buttonText: "WhatsApp Us",
 
-  buttonLink: "https://wa.me/917259922753",
+  buttonLink: "https://wa.me/917259922753?text=Hello%21%20I%20would%20like%20to%20enquire%20about%20the%20products%20and%20prices%20available%20at%20your%20provision%20store.",
 
   emoji: "🚩",
 };
@@ -257,7 +257,7 @@ function Header() {
 
             <a
               className="contactPill"
-              href="https://wa.me/917259922753"
+              href="https://wa.me/917259922753?text=Hello%21%20I%20would%20like%20to%20enquire%20about%20the%20products%20and%20prices%20available%20at%20your%20provision%20store."
             >
               <MessageCircle />
               WhatsApp
@@ -330,7 +330,7 @@ function Footer() {
         <div>
           <b>CONNECT</b>
 
-          <a href="https://wa.me/917259922753">
+          <a href="https://wa.me/917259922753?text=Hello%21%20I%20would%20like%20to%20enquire%20about%20the%20products%20and%20prices%20available%20at%20your%20provision%20store.">
             WhatsApp
           </a>
 
@@ -436,7 +436,7 @@ function Home() {
 
               <a
                 className="btn"
-                href="https://wa.me/917259922753"
+                href="https://wa.me/917259922753?text=Hello%21%20I%20would%20like%20to%20enquire%20about%20the%20products%20and%20prices%20available%20at%20your%20provision%20store."
               >
                 <MessageCircle />
                 WhatsApp Us
@@ -863,7 +863,7 @@ function Essentials() {
 
         <a
           className="btn green"
-          href="https://wa.me/917259922753"
+          href="https://wa.me/917259922753?text=Hello%21%20I%20would%20like%20to%20enquire%20about%20the%20products%20and%20prices%20available%20at%20your%20provision%20store."
         >
           Ask the store
           <ArrowRight />
@@ -979,7 +979,7 @@ function Contact() {
 
           <a
             className="contactCard"
-            href="https://wa.me/917259922753"
+            href="https://wa.me/917259922753?text=Hello%21%20I%20would%20like%20to%20enquire%20about%20the%20products%20and%20prices%20available%20at%20your%20provision%20store."
           >
             <MessageCircle />
 
