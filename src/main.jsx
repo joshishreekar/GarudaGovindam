@@ -223,7 +223,7 @@ function Header() {
   return (
     <>
       <div className="top">
-        ✦ LOCAL STORE • TRUSTED SERVICE • EVERYDAY ESSENTIALS
+        ✦ LOCAL STORE • TRUSTED SERVICE • EVERYDAY ESSENTIALS ✦ DESIGNED BY LKJ STUDIO
       </div>
 
       <header>
@@ -362,10 +362,10 @@ function Footer() {
       </div>
 
       <div className="bottom">
-        © 2026 Garuda Govindam Provision Store
-
+        © 2026 Garuda Govindam Provision Store |
+        <span>  </span>
         <span>
-          Replace owner details before launch
+          Designed by <b>LKJ Studio</b>
         </span>
       </div>
     </footer>

@@ -1022,7 +1022,7 @@ footer {
 .foot p {
   color: #9eafa7;
 
-  font-size: 11px;
+  font-size: 15px;
 
   line-height: 1.7;
 
@@ -1030,7 +1030,7 @@ footer {
 }
 
 .foot > div > b {
-  font-size: 10px;
+  font-size: 20px;
 
   color: #c8df8f;
 
@@ -1043,7 +1043,7 @@ footer {
 
   color: #aebcb6;
 
-  font-size: 10px;
+  font-size: 15px;
 
   margin-top: 12px;
 }
@@ -1059,11 +1059,11 @@ footer {
 
   color: #72857d;
 
-  font-size: 8px;
+  font-size: 18px;
 
   display: flex;
 
-  justify-content: space-between;
+  justify-content: center;
 }
 
 /* =========================
