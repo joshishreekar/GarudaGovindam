@@ -3,6 +3,7 @@
 A simple and modern local-store portfolio/business website created for Garuda Govindam Provision Store.
 
 🌐 Live Website: https://garudagovindam.vercel.app
+💻 GitHub: https://github.com/joshishreekar
 
 👨‍💻 Developer
 
@@ -40,7 +41,7 @@ LKJ Studio
 
 1. Clone the repository
 
-git clone https://github.com/joshishreekar
+git clone YOUR_GITHUB_REPOSITORY_URL
 
 2. Open the project
 
@@ -96,4 +97,3 @@ Designed & Developed by Shreekar Joshi
 LKJ Studio
 
 © 2026 Garuda Govindam Provision Store
-
