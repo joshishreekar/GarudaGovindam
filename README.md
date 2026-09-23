@@ -88,8 +88,10 @@ The primary goals are:
 
 ## 👤 Credits
 
-**Designed & Developed by**
-*Shreekar Joshi*
+**Designed & Developed by** 
+
+*Shreekar Joshi* 
+
 *LKJ Studio*
 
 © 2026 Garuda Govindam Provision Store
