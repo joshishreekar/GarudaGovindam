@@ -1,4 +1,4 @@
-🛍️ Garuda Govindam Provision Store — Portfolio Website
+# 🛍️ Garuda Govindam Provision Store — Portfolio Website
 
 A simple and modern local-store portfolio/business website created for Garuda Govindam Provision Store.
 
