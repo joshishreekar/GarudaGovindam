@@ -97,11 +97,11 @@ const cats = [
 const offerConfig = {
   enabled: true,
 
-  badge: "GANESHA CHATURTHI OFFER",
+  badge: "DASARA Grand Shubh Labh Sale!",
 
   title: "Up to 20% OFF",
 
-  subtitle: "Special Ganesha festival offer on selected Products",
+  subtitle: "Special Dasara festival offer on selected Products",
 
   buttonText: "WhatsApp Us",
 
