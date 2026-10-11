@@ -97,9 +97,9 @@ const cats = [
 const offerConfig = {
   enabled: true,
 
-  badge: "DASARA Grand Shubh Labh Sale!",
+  badge: "Up to 20% OFF",
 
-  title: "Up to 20% OFF",
+  title: "DASARA Grand Shubh Labh Sale!",
 
   subtitle: "Special Dasara festival offer on selected Products",
 
